@@ -10,10 +10,10 @@ function App() {
   const [operation, setOperation] = useState("");
   const [result, setResult] = useState(0);
 
-  useEffect(() => {
-    console.log(result);
-    console.log(firstNumber + " " + operation + " " + secondNumber);
-  }, [result]);
+  // useEffect(() => {
+  //   console.log(result);
+  //   console.log(firstNumber + " " + operation + " " + secondNumber);
+  // }, [result]);
 
   const clickNumbers = (val) => {
     if (operation === "") {
